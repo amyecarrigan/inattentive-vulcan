@@ -4,7 +4,7 @@
     <router-link to="/">Home</router-link>
     <hr>
     <article v-for="article in articles" :key="article.slug" class="article">
-      <router-link class="article__link" to="`/blog/${ article.slug }`">
+      <router-link class="article__link" :to="`/blog/${ article.slug }`">
         <h2 class="article__title">{{ article.title }}</h2>
         <p class="article__description">{{ article.description }}</p>
       </router-link>
