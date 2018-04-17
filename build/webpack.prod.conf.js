@@ -12,6 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin')
+const PrerenderSpaPlugin = require('prerender-spa-plugin')
 const loadMinified = require('./load-minified')
 
 const env = config.build.env
@@ -105,7 +106,12 @@ const webpackConfig = merge(baseWebpackConfig, {
       staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
       stripPrefix: 'dist/'
-    })
+    }),
+    // prerender app
+    new PrerenderSpaPlugin(
+      path.join(__dirname, '../dist'),
+      ['/']
+    )
   ]
 })
 
