@@ -3,10 +3,12 @@
     <h1>Blog</h1>
     <router-link to="/">Home</router-link>
     <article v-for="article in articles" :key="article.slug" class="article">
-      <router-link class="article__link" :to="`/blog/${ article.slug }`">
-        <h2 class="article__title">{{ article.title }}</h2>
+        <h2 class="article__title">
+          <router-link class="article__link" :to="`/blog/${ article.slug }`">
+            {{ article.title }}
+          </router-link>
+        </h2>
         <p class="article__description">{{ article.description }}</p>
-      </router-link>
     </article>
   </div>
 </template>

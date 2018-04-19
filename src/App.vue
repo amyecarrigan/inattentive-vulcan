@@ -4,7 +4,6 @@
       <span>Inattentive Vulcan</span>
     </header>
     <main>
-      <img src="./assets/inattentiveVulcan.svg" alt="">
       <router-view></router-view>
     </main>
   </div>

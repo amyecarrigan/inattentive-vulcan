@@ -1,0 +1,35 @@
+/* Links
+   ========================================================================== */
+
+$color-link-normal: $brand-primary;
+$color-link-hover: $color-font-body;
+$color-link-active: $brand-primary;
+$color-link-visited: $brand-primary;
+
+a {
+  background: transparent;
+  color: $color-link-normal;
+  text-decoration: none;
+  transition: all .3s;
+
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+
+  &:hover {
+    color: $color-link-hover;
+  }
+
+  &:visited {
+    color: $color-link-visited;
+
+    &:hover {
+      color: $color-link-hover;
+    }
+  }
+
+  &:active {
+    color: $color-link-active;
+  }
+}
