@@ -15,3 +15,8 @@ About half-a-dozen half-baked attempts into this process, and CSS Tricks publish
 
 This tutorial also took a few attempts while I tried to figure out how to write SCSS my way (meaning in its own file, and not in the Vue components). Look, I've been doing web development for a long time, I just want to write it this way, okay? _Get off my lawn._
 
+Anyway, we're here now, and this will be place to capture my ramblings about front-end web development, my learnings in animation (and probably some illustration), and whatever else seems relevant at the time.
+
+Pull up a chair, sign up for the newsletter if you want an email when I post a new post (roughly weekly). (RSS may be coming soon, we'll see if I get around to building that part.)
+
+Drop me a line at hello [at] inattentivevulcan [dot] com to say 'Hello'. I've been off Twitter for a while, I'll probably post here when (if) I decide to come back.
