@@ -1,9 +1,46 @@
+html {
+  font-size: 18px;
+}
+
 body {
   background-color: $white;
   color: $brand-dark;
   font-family: 'Muli', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-family: 'Hogar Script', script, cursive;
+}
+
+h2, h4 {
+  color: $gray-dark;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1 {
+  font-size: var(--step-up-5);
+}
+
+h2 {
+  font-size: var(--step-up-3);
+}
+
+h3 {
+  font-size: var(--step-up-3);
+}
+
+h4 {
+  font-size: var(--step-up-1);
+}
+
+a {
+  text-decoration: none;
+  color: $brand-primary;
+  transition: color $hover-duration $easing-function;
+
+  &:hover, &:active, &:focus {
+    color: $brand-dark;
+  }
 }

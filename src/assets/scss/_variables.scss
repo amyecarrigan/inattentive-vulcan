@@ -5,3 +5,26 @@ $white:         #fbfff7;
 $black:         #02111b;
 $gray-dark:     #3f4045;
 $gray-light:    #a2a79e;
+
+// Font Sizes
+:root {
+  --step-up-5: 2em;
+  --step-up-4: 1.7511em;
+  --step-up-3: 1.5157em;
+  --step-up-2: 1.3195em;
+  --step-up-1: 1.1487em;
+  // baseline: 1em
+  --step-down-1: 0.8706em;
+  --step-down-2: 0.7579em;
+  --step-down-3: 0.6599em;
+  --step-down-4: 0.5745em;
+  --step-down-5: 0.5em;
+}
+
+// Font Weights
+$font-weight-base: 300;
+$font-weight-bold: 600;
+
+// Animations
+$hover-duration: 300ms;
+$easing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
