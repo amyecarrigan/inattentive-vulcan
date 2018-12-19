@@ -1,13 +1,13 @@
 <template>
   <div class="blog">
-    <h1>Blog</h1>
+    <h2>Blog</h2>
     <router-link to="/">Home</router-link>
     <article v-for="article in articles" :key="article.slug" class="article">
-        <h2 class="article__title">
+        <h3 class="article__title">
           <router-link class="article__link" :to="`/blog/${ article.slug }`">
             {{ article.title }}
           </router-link>
-        </h2>
+        </h3>
         <p class="article__description">{{ article.description }}</p>
     </article>
   </div>

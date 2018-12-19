@@ -1,10 +1,10 @@
 // Color Palette
-$brand-primary: #5989c5;
-$brand-dark:    #274675;
-$white:         #fbfff7;
-$black:         #02111b;
-$gray-dark:     #3f4045;
-$gray-light:    #a2a79e;
+$brand-primary: #d12368;
+$brand-dark:    #darken($brand-primary, 10%);
+$white:         #f9fbf2;
+$black:         #363537;
+$gray-dark:     #777775;
+$gray-light:    #b8b9b4;
 
 // Font Weights
 $font-weight-base: 300;
