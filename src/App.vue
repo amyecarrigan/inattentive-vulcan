@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <h1>AmyBeth Creative</h1>
+      <h1>Inattentive Vulcan</h1>
     </header>
     <main>
       <router-view></router-view>
